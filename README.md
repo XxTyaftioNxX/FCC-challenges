@@ -1,8 +1,6 @@
 # FCC-challenges
 
- Complete Challenge of 'Data Analysis and Python' course from freecodecamp
- 
- Course [link](https://www.freecodecamp.org/learn/data-analysis-with-python)
+ Complete Challenge of ['Data Analysis and Python'](https://www.freecodecamp.org/learn/data-analysis-with-python) course from freecodecamp
  
  * completed challenges:
    * Mean-Variance-Standard Deviation Calculator 
