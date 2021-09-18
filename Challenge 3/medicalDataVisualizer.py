@@ -47,6 +47,8 @@ fig = sns.catplot(
         data=df_cat,
         kind="bar").fig
 
+plt.savefig('catplot.png')
+
 #plt.show() 
 
 # Draw Heat Map
@@ -75,7 +77,9 @@ def draw_heat_map():
 
     # Draw the heatmap with 'sns.heatmap()'
     sns.heatmap(corr, annot=True, fmt='.1f', mask=mask, vmin=.16, vmax=.32, center=0)
+
+    plt.savefig('heatmap.png')
     #plt.show()
 
 
-#draw_heat_map()
+draw_heat_map()
